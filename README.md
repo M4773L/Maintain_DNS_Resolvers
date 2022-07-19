@@ -78,7 +78,7 @@ Will run the program with the constant values used as the applications arguments
 #### With Command Line Arguments
 ```
 ┌──(m477㉿kali)-[~/Tools/Maintain_DNS_Resolvers]
-└─$ python3 maintain_resolvers.py -minimum 100 -threads 10  -o console
+└─$ python3 maintain_resolvers.py --minimum 100 --threads 10  -o console
 ```
 Will run the program using the arguments supplied via the command line and will default to the constant values for arguments that are not supplied.
 
